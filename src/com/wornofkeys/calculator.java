@@ -13,7 +13,7 @@ public class calculator {
 
         System.out.println("What is your operation(+, -, /, *)");
         String operation = input.next();
-        int l;
+        int l = 0;
 
         switch (operation) {
             case "+":
@@ -29,6 +29,7 @@ public class calculator {
                 l = numberTwo * numberTwo;
                 break;
         }
-
+        System.out.println("The answer is :");
+        System.out.println(l);
     }
 }
