@@ -8,8 +8,11 @@ public class world_of_methods {
 //        System.out.println(add("Hello", " World"));
 //        arrays();
 //        array();
-        System.out.println(addition(5, 7, 7, 8, 9));
+//        System.out.println(addition(5, 7, 7, 8, 9));
+        //constants
+        final int age = 20;
 
+        //
     }
     public static int add (int num1, int num2) {
         int number = num1 + num2;
