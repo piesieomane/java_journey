@@ -7,6 +7,7 @@ public class world_of_methods {
         System.out.println(add(5,9));
         System.out.println(add("Hello", " World"));
         arrays();
+        array();
 
     }
     public static int add (int num1, int num2) {
@@ -30,6 +31,18 @@ public class world_of_methods {
         //Using For Each loop
         for (int number: ages) {
             System.out.println(number);
+        }
+    }
+
+    public  static  void array () {
+        int [][] scores = {
+                {2,3,4},
+                {4,6,7}
+        };
+        for (int [] score: scores) {
+            for(int number : score) {
+                System.out.println(number);
+            }
         }
     }
 }
