@@ -1,2 +1,2 @@
-# java_journey
-The start of Java
+## java_journey
+- #The start of Java
