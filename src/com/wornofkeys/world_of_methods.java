@@ -5,10 +5,15 @@ public class world_of_methods {
         System.out.println(add(5,9));
         System.out.println(add(5,8));
         System.out.println(add(5,9));
+        System.out.println(add("Hello", " World"));
 
     }
     public static int add (int num1, int num2) {
         int number = num1 + num2;
         return number;
+    }
+
+    public static String add (String s1, String s2) {
+        return  s1 + s2;
     }
 }
