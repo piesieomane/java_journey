@@ -1,5 +1,7 @@
 package com.wornofkeys;
 
+import java.util.Random;
+
 public class world_of_methods {
     public static void main (String [] args) {
 //        System.out.println(add(5,9));
@@ -23,9 +25,16 @@ public class world_of_methods {
 //        String str = "10";
 //        int num = Integer.parseInt(str);
 //        System.out.println(num);
-        int num = 10;
-        String str = String.valueOf(num);
-        System.out.println(str);
+//        int num = 10;
+//        String str = String.valueOf(num);
+//        System.out.println(str);
+
+        //Generate random number
+//        int number = new Random().nextInt(10);
+//        System.out.println(number);
+
+        //Newer way of generating random number
+
     }
     public static int add (int num1, int num2) {
         int number = num1 + num2;
