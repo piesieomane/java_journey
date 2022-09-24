@@ -2,12 +2,13 @@ package com.wornofkeys;
 
 public class world_of_methods {
     public static void main (String [] args) {
-        System.out.println(add(5,9));
-        System.out.println(add(5,8));
-        System.out.println(add(5,9));
-        System.out.println(add("Hello", " World"));
-        arrays();
-        array();
+//        System.out.println(add(5,9));
+//        System.out.println(add(5,8));
+//        System.out.println(add(5,9));
+//        System.out.println(add("Hello", " World"));
+//        arrays();
+//        array();
+        System.out.println(addition(5, 7, 7, 8, 9));
 
     }
     public static int add (int num1, int num2) {
@@ -45,4 +46,13 @@ public class world_of_methods {
             }
         }
     }
+
+    public  static int addition(int ...args) {
+        int sum = 0;
+        for (int i = 0; i < args.length; i++) {
+            sum += args[i];
+        }
+        return sum;
+    }
+
 }
