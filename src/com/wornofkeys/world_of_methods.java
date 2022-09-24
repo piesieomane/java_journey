@@ -12,7 +12,10 @@ public class world_of_methods {
         //constants
         final int age = 20;
 
-        //
+        //casting
+        int num = 20;
+        double num1 = num;
+        System.out.println(num1);
     }
     public static int add (int num1, int num2) {
         int number = num1 + num2;
