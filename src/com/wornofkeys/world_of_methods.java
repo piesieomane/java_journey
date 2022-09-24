@@ -34,6 +34,8 @@ public class world_of_methods {
 //        System.out.println(number);
 
         //Newer way of generating random number
+//        double number = Math.random();
+//        System.out.println(number);
 
     }
     public static int add (int num1, int num2) {
