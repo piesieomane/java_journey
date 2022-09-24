@@ -12,12 +12,20 @@ public class world_of_methods {
         //constants
         //final int age = 20;
 
-        //casting
+        //casting Primitive
 //        int num = 20;
 //        double num1 = num;
 //        System.out.println(num1);
-        double num = 20.5;
-        int num1 = (int) num;
+//        double num = 20.5;
+//        int num1 = (int) num;
+
+        //casting to and from Strings(Reference type)
+//        String str = "10";
+//        int num = Integer.parseInt(str);
+//        System.out.println(num);
+        int num = 10;
+        String str = String.valueOf(num);
+        System.out.println(str);
     }
     public static int add (int num1, int num2) {
         int number = num1 + num2;
