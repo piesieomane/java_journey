@@ -20,8 +20,12 @@ public class world_of_methods {
 
     public static void arrays () {
         int [] ages = new int[] {2, 3, 4, 5, 6 };
-        System.out.println(ages[3]);
-        System.out.println(ages[2]);
-        System.out.println(ages[2]);
+//        System.out.println(ages[3]);
+//        System.out.println(ages[2]);
+//        System.out.println(ages[2]);
+        //Standard For loop
+        for(int i = 0; i < ages.length; i++) {
+            System.out.println(ages[i]);
+        }
     }
 }
