@@ -13,23 +13,23 @@ public class calculator {
 
         System.out.println("What is your operation(+, -, /, *)");
         String operation = input.next();
-        int l = 0;
+        int results = 0;
 
         switch (operation) {
             case "+":
-                l = numberTwo + numberTwo;
+                results = numberTwo + numberTwo;
                 break;
             case "-":
-                l = numberTwo - numberTwo;
+                results = numberTwo - numberTwo;
                 break;
             case "/":
-                l = numberTwo / numberTwo;
+                results = numberTwo / numberTwo;
                 break;
             case "*":
-                l = numberTwo * numberTwo;
+                results = numberTwo * numberTwo;
                 break;
         }
-        System.out.println("The answer is :");
-        System.out.println(l);
+        System.out.println("The answer is :" + results);
+        System.out.println(results);
     }
 }
