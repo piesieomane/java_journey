@@ -24,8 +24,12 @@ public class world_of_methods {
 //        System.out.println(ages[2]);
 //        System.out.println(ages[2]);
         //Standard For loop
-        for(int i = 0; i < ages.length; i++) {
-            System.out.println(ages[i]);
+//        for(int i = 0; i < ages.length; i++) {
+//            System.out.println(ages[i]);
+//        }
+        //Using For Each loop
+        for (int number: ages) {
+            System.out.println(number);
         }
     }
 }
