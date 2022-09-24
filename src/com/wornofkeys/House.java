@@ -1,13 +1,13 @@
 package com.wornofkeys;
 
 public class House {
-    public House(String ownername) {
-        System.out.println("Hello, i am the owner: " + ownername);
-    }
-    public House(int floor) {
-        System.out.println("The number of floors in the house is " + floor);
+    private String ownername;
+    private int floors;
+    public House(String ownername, int floors) {
+        this.ownername = ownername;
+        this.floors = floors;
     }
     public void print() {
-        System.out.println("Hello, World, I am here ");
+        System.out.println("Hello, World, I am the owner "+ this.ownername + "and there are "+ this.floors + "floors in the house");
     }
 }
