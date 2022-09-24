@@ -7,5 +7,8 @@ public class PiesieCourse {
 
         House yourHouse = new House("David");
         yourHouse.print();
+
+        House anotherHouse = new House(3);
+        anotherHouse.print();
     }
 }
