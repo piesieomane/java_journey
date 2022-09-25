@@ -8,5 +8,8 @@ public class PiesieCourse {
         House yourHouse = new House("David", 6);
         yourHouse.print();
 
+        House hisHouse = new House ("Yeboah", 8);
+        hisHouse.print();
+
     }
 }
