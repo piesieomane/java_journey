@@ -17,4 +17,8 @@ public class House {
     public String getOwnername() {
         return ownername;
     }
+    //Setter Method
+    public void setOwnername() {
+        this.ownername = ownername;
+    }
 }
