@@ -12,5 +12,8 @@ public class PiesieCourse {
         House hisHouse = new House ("Yeboah", 8);
         hisHouse.print();
 
+        Hotel myHotel = new Hotel("Asuama", 34);
+        myHotel.getOwnername();
+
     }
 }
