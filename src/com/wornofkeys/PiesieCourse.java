@@ -3,7 +3,7 @@ package com.wornofkeys;
 public class PiesieCourse {
     public static void main(String [] args) {
         House myHouse = new House("Piesie", 4);
-        myHouse.ownername = "Ato";
+//        myHouse.ownername = "Ato";
         myHouse.print();
 
         House yourHouse = new House("David", 6);

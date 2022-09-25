@@ -1,8 +1,9 @@
 package com.wornofkeys;
 
 public class House {
-    public String ownername;
-    public int floors;
+    //Access modifier
+    private String ownername;
+    private int floors;
 
     public House(String ownername, int floors) {
         this.ownername = ownername;
