@@ -1,8 +1,9 @@
 package com.wornofkeys;
 
 public class House {
-    private String ownername;
-    private int floors;
+    public String ownername;
+    public int floors;
+
     public House(String ownername, int floors) {
         this.ownername = ownername;
         this.floors = floors;
