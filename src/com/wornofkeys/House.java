@@ -21,4 +21,8 @@ public class House {
     public void setOwnername() {
         this.ownername = ownername;
     }
+
+    public int getFloor() {
+        return floors;
+    }
 }
