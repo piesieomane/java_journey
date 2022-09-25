@@ -13,7 +13,8 @@ public class PiesieCourse {
         hisHouse.print();
 
         Hotel myHotel = new Hotel("Asuama", 34);
-        myHotel.getOwnername();
+        myHotel.print();
+        myHotel.print(3);
 
     }
 }
