@@ -12,4 +12,9 @@ public class House {
     public void print() {
         System.out.println("Hello, World, I am the owner "+ this.ownername + "and there are "+ this.floors + "floors in the house");
     }
+
+    //Getter Method
+    public String getOwnername() {
+        return ownername;
+    }
 }
