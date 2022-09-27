@@ -18,16 +18,17 @@ public class PiesieCourse {
 //        Bird bird = new Bird("Eagle");
 //        //Only the class can access the static method
 //        System.out.println(Bird.getWings());
-        Crow crow = new Crow("Crow");
-//        crow.sing();
-//        crow.averageLifespan();
-        if (crow instanceof Bird) {
-            System.out.println("A crow is of a Bird");
-        }
-
-        Robin robin = new Robin("animal");
-        robin.sing();
-        robin.averageLifespan();
+//        Crow crow = new Crow("Crow");
+////        crow.sing();
+////        crow.averageLifespan();
+//        if (crow instanceof Bird) {
+//            System.out.println("A crow is of a Bird");
+//        }
+//
+//        Robin robin = new Robin("animal");
+//        robin.sing();
+//        robin.averageLifespan();
+        System.out.println(DaysOfWeek.FRIDAY);
 
     }
 }
