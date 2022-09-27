@@ -21,5 +21,8 @@ public class PiesieCourse {
         Crow crow = new Crow("Crow");
         crow.sing();
 
+        Robin robin = new Robin("animal");
+        robin.sing();
+
     }
 }
