@@ -20,9 +20,11 @@ public class PiesieCourse {
 //        System.out.println(Bird.getWings());
         Crow crow = new Crow("Crow");
         crow.sing();
+        crow.averageLifespan();
 
         Robin robin = new Robin("animal");
         robin.sing();
+        robin.averageLifespan();
 
     }
 }

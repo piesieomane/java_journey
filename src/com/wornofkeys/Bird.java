@@ -11,5 +11,6 @@ public abstract class Bird {
     }
 
     public abstract void sing();
+    //we cant create instances from abstract classes, but we can extend
 
 }
