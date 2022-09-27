@@ -28,7 +28,19 @@ public class PiesieCourse {
 //        Robin robin = new Robin("animal");
 //        robin.sing();
 //        robin.averageLifespan();
-        System.out.println(DaysOfWeek.FRIDAY);
+        //Enum
+//        System.out.println(DaysOfWeek.FRIDAY.getDisplayName());
+//        System.out.println(DaysOfWeek.FRIDAY.isWorkday());
+        DaysOfWeek day = DaysOfWeek.MONDAY;
 
+        if(day.isWorkday()) {
+            System.out.println("Going to work today");
+        }else {
+            System.out.println("It is a weekend");
+        }
+
+        for (DaysOfWeek anyday : DaysOfWeek.values()){
+            System.out.println(anyday.getDisplayName() + ":" + anyday.isWorkday());
+        }
     }
 }
