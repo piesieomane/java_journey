@@ -19,8 +19,11 @@ public class PiesieCourse {
 //        //Only the class can access the static method
 //        System.out.println(Bird.getWings());
         Crow crow = new Crow("Crow");
-        crow.sing();
-        crow.averageLifespan();
+//        crow.sing();
+//        crow.averageLifespan();
+        if (crow instanceof Bird) {
+            System.out.println("A crow is of a Bird");
+        }
 
         Robin robin = new Robin("animal");
         robin.sing();
