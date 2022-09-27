@@ -1,6 +1,6 @@
 package com.wornofkeys;
 
-public class Bird {
+public abstract class Bird {
     public static int wings  = 2;
 
     public String type;
