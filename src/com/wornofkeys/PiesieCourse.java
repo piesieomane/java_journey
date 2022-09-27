@@ -19,7 +19,7 @@ public class PiesieCourse {
 //        //Only the class can access the static method
 //        System.out.println(Bird.getWings());
         Crow crow = new Crow("Crow");
-
+        crow.sing();
 
     }
 }
