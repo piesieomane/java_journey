@@ -15,9 +15,11 @@ public class PiesieCourse {
 //        Hotel myHotel = new Hotel("Asuama", 34);
 //        myHotel.print();
 //        myHotel.print(3);
-        Bird bird = new Bird("Eagle");
-        //Only the class can access the static method
-        System.out.println(Bird.getWings());
+//        Bird bird = new Bird("Eagle");
+//        //Only the class can access the static method
+//        System.out.println(Bird.getWings());
+        Crow crow = new Crow("Crow");
+
 
     }
 }
