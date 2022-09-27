@@ -10,4 +10,6 @@ public abstract class Bird {
         return wings;
     }
 
+    public abstract void sing();
+
 }
