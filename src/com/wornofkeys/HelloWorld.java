@@ -34,6 +34,7 @@ public class HelloWorld {
             System.out.println("You did not put in the correct number");
             //e.printStackTrace();
         } finally {
+            //close any open connections
             System.out.println("Finally worked");
         }
         System.out.println("WOrked");
