@@ -1,5 +1,6 @@
 package com.wornofkeys;
 
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class HelloWorld {
@@ -24,6 +25,17 @@ public class HelloWorld {
 //        else System.out.println("Out of range");
 
         Scanner input = new Scanner(System.in);
-        System.out.println(input.nextInt());
+//        System.out.println(input.nextInt());
+        try {
+            //connect to the database
+            System.out.println(input.nextInt());
+        } catch (InputMismatchException e) {
+            //Handle any erros, example invalid login
+            System.out.println("You did not put in the correct number");
+            //e.printStackTrace();
+        } finally {
+            System.out.println("Finally worked");
+        }
+        System.out.println("WOrked");
     }
 }
