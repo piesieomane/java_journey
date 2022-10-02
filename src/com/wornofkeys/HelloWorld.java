@@ -4,7 +4,7 @@ import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class HelloWorld {
-    public static void main(String [] args) {
+    public static void main(String [] args) throws Exception {
 //        System.out.println("Hello world!!");
 //        int age = 22;
 //        String name = "Piesie";
@@ -26,17 +26,26 @@ public class HelloWorld {
 
         Scanner input = new Scanner(System.in);
 //        System.out.println(input.nextInt());
-        try {
-            //connect to the database
-            System.out.println(input.nextInt());
-        } catch (InputMismatchException e) {
-            //Handle any erros, example invalid login
-            System.out.println("You did not put in the correct number");
-            //e.printStackTrace();
-        } finally {
-            //close any open connections
-            System.out.println("Finally worked");
+//        try {
+//            //connect to the database
+//            System.out.println(input.nextInt());
+//        } catch (InputMismatchException e) {
+//            //Handle any erros, example invalid login
+//            System.out.println("You did not put in the correct number");
+//            //e.printStackTrace();
+//        } finally {
+//            //close any open connections
+//            System.out.println("Finally worked");
+//        }
+//        System.out.println("WOrked");
+
+        //THROWING ERROS
+        String nextStr = input.nextLine();
+
+        if(nextStr.equalsIgnoreCase("error")) {
+            throw new Exception("An error was given frm the user");
         }
-        System.out.println("WOrked");
+
+        System.out.println(nextStr);
     }
 }
