@@ -17,5 +17,9 @@ public class Hashmaps {
         for (String key : scores.keySet()) {
             System.out.println(key);
         }
+
+        for (int key : scores.values()) {
+            System.out.println(key);
+        }
     }
 }
