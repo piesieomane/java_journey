@@ -21,5 +21,13 @@ public class Hashmaps {
         for (int key : scores.values()) {
             System.out.println(key);
         }
+
+        for (Map.Entry<String, Integer> entry : scores.entrySet()) {
+            System.out.println(entry);
+            String key = entry.getKey();
+            int value = entry.getValue();
+
+            System.out.println(key + " has " + value + " points ");
+        }
     }
 }
